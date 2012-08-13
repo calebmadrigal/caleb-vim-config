@@ -32,9 +32,6 @@ if has("syntax")
 endif
 
 " Settings for VimClojure
-"let g:clj_highlight_builtins=1      " Highlight Clojure's builtins
-"let g:clj_paren_rainbow=1           " Rainbow parentheses'!
-
-let vimclojure#HighlightBuiltins=1
-let vimclojure#ParenRainbow=1
+let vimclojure#HighlightBuiltins=1   " Highlight Clojure's bulitins
+let vimclojure#ParenRainbow=1        " Rainbow parentheses
 
