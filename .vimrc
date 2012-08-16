@@ -17,6 +17,9 @@ map <C-N> :tabnew<CR>
 map <C-]> gt
 map <C-\> gT
 
+" :R command to run the current script
+command R !./%
+
 " Automatic syntax-highlighting
 if has("syntax")
         syntax on
