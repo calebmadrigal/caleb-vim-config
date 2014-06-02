@@ -1,11 +1,11 @@
 " Caleb Madrigal Vim config
 " Updated: 6/02/2014
 "
-" Usage notes:
-" * To tell Vundle to install stuff: :BundleInstall
-" * To list Vundle Plugins: :PluginList
-" * After doing the initial :BundleInstall, do this to complete color scheme install:
-"     cp ~/.vim/bundle/vim-colorschemes/colors/* ~/.vim/colors
+" Initial setup notes
+" * Copy the vimrc file to ~/.vimrc
+" * git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" * In vim, run the command :BundleInstall (to tell Vundle to install the
+" Bundles)
 
 " Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
