@@ -29,13 +29,13 @@ This Vim setup includes the following:
 
 Here is a list of hotkeys (beyond the standard ones):
 * `Ctrl-n` - Toggle NERDTree
-* `t` (in NERDTree) - open selected file in new tab
+   - `t` - open selected file in new tab (in NERDTree)
 * `\\w` - EasyMotion (moving down)
 * `\\B` - EasyMotion (moving up)
 * `\\s` - EasyMotion (searching down)
 * `Ctrl+p` - open CtrlP
-* `Ctrl+b` - cycle through modes CtrlP modes
-* `Ctrl+t` - In CtrlP, open selected in new tab
+   - `Ctrl+b` - cycle through modes (in CtrlP)
+   - `Ctrl+t` - open selected in new tab (in CtrlP)
 * `Ctrl+- Ctrl+-` - Toggle comment using tComment
 * `Ctrl+Tab` - Next tab (in GUI mode only)
 * `Ctrl+Shift+Tab` - Previous tab (in GUI mode only)
