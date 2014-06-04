@@ -19,12 +19,6 @@ Bundle 'flazz/vim-colorschemes'
 
 " Rainbow parentheses
 Bundle 'kien/rainbow_parentheses.vim'
-"noremap <leader>r :RainbowParenthesesToggle<CR>
-" :RainbowParenthesesToggle
-" au FileType * RainbowParenthesesActivate
-" au syntax * RainbowParenthesesLoadRound
-" au syntax * RainbowParenthesesLoadSquare
-" au syntax * RainbowParenthesesLoadBraces
 
 " EasyMotion
 " \\w - move down
@@ -37,6 +31,15 @@ Bundle 'Lokaltog/vim-easymotion'
 " <C-b> - cycle through modes
 " <C-t> - open selected in new tab
 Bundle 'kien/ctrlp.vim'
+
+" CtrlP-Funky
+" \fu - search for function
+" \fU - search for function under cursor
+Bundle 'tacahiroy/ctrlp-funky'
+let g:ctrlp_extensions = ['funky']
+let g:ctrlp_funky_syntax_highlight = 1
+nnoremap <Leader>fu :CtrlPFunky<Cr>
+nnoremap <Leader>fU :execute 'CtrlPFunky ' . expand('<cword>')<Cr> 
 
 " tComment
 " <C-_> <C-_> - toggle comment
@@ -59,9 +62,6 @@ Bundle 'plasticboy/vim-markdown'
 " All of your Plugins must be added before the following line
 call vundle#end()
 filetype plugin indent on
-
-" Set <Leader> key to ","
-" let mapleader = ","
 
 set novisualbell        " No blinking
 set noerrorbells        " No noise.
@@ -112,11 +112,17 @@ set expandtab
 " Automatic syntax-highlighting
 if has("syntax")
     syntax on
+    " Turn on rainbow parentheses
+    au FileType * RainbowParenthesesActivate
+    au syntax * RainbowParenthesesLoadRound
+    au syntax * RainbowParenthesesLoadSquare
+    au syntax * RainbowParenthesesLoadBraces
 endif
 
 " Select color scheme depending on mode (gui or cmd-line).
 if has("gui_running")
-    color tango-desert
+    set bg=dark
+    color solarized
 else
     set bg=dark
 endif
