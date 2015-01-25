@@ -29,7 +29,8 @@ This repository just contains my .vimrc config file.
     - Nice indention functionality
     - Show syntax highlighting and line numbers
 
-Here is a list of hotkeys (beyond the standard ones):
+# Here is a list of hotkeys (beyond the standard ones)
+
 * `Ctrl-n` - Toggle NERDTree
    - `t` - open selected file in new tab (in NERDTree)
 * `\\w` - EasyMotion (moving down)
