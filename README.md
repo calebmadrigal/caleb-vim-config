@@ -3,14 +3,16 @@ caleb-vim-config
 
 This repository just contains my .vimrc config file.
 
-Setup directions:
+# Setup directions
+
 * Clone this repo: `git clone https://github.com/calebmadrigal/caleb-vim-config`
 * Go into the repo directory: `cd caleb-vim-config`
 * Copy the vimrc: `cp vimrc ~/.vimrc`
 * Clone Vundle: `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 * In vim, run this command: `:BundleInstall` (which will download and install all of the Bundles)
 
-This Vim setup includes the following:
+# This Vim setup includes the following
+
 * Packages:
     * `Vundle` - for package management
     * `EasyMotion` - for quick keyboard-based motion
@@ -27,7 +29,10 @@ This Vim setup includes the following:
     - Nice indention functionality
     - Show syntax highlighting and line numbers
 
-Here is a list of hotkeys (beyond the standard ones):
+# Here is a list of hotkeys
+
+(beyond the standard ones)
+
 * `Ctrl-n` - Toggle NERDTree
    - `t` - open selected file in new tab (in NERDTree)
 * `\\w` - EasyMotion (moving down)
