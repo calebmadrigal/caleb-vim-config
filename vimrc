@@ -51,6 +51,9 @@ noremap <C-n> :NERDTreeToggle<CR>
 " Markdown syntax highlighting
 Bundle 'plasticboy/vim-markdown'
 
+" Disable vim-markdown's section folding
+let g:vim_markdown_folding_disabled=1
+
 " Automatically surround
 " Bundle 'tpope/vim-surround'
 
