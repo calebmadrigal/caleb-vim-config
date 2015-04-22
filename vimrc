@@ -68,6 +68,7 @@ filetype plugin indent on
 
 set novisualbell        " No blinking
 set noerrorbells        " No noise.
+set paste               " Set paste mode by default ":set nopaste" to disable it
 
 " Search stuff
 set incsearch           " Incremental search (search before hitting enter)
